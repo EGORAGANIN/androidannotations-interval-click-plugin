@@ -1,11 +1,10 @@
 apply plugin: 'java'
-apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.m0er'
 
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
-    compile "org.androidannotations:androidannotations-api:$ANDROID_ANNOTATIONS_VERSION"
+    implementation "org.androidannotations:androidannotations-api:$ANDROID_ANNOTATIONS_VERSION"
 }

@@ -76,6 +76,6 @@ public @interface IntervalClick {
      *
      * @return the values of time period.
      */
-    long intervalMilliseconds() default 600;
+    long intervalMilliseconds() default 1000;
 
 }
